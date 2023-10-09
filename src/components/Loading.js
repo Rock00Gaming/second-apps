@@ -9,7 +9,7 @@ export default class Loading extends Component {
           style={{ width: "5rem", height: "5rem", margin: "auto" }}
           role="status"
         >
-          <span class="visually-hidden">Loading...</span>
+          <span className="visually-hidden">Loading...</span>
         </div>
       </div>
     );
