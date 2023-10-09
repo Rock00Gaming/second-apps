@@ -5,7 +5,10 @@ export class NavBar extends Component {
     return (
       <div>
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
-          <div className="container-fluid">
+          <div
+            className="container-fluid"
+            style={{ position: "sticky", top: "1px" }}
+          >
             <a className="navbar-brand" href="/">
               News Analytics
             </a>
